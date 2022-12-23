@@ -1,0 +1,7 @@
+15:04:46 **** Incremental Build of configuration Debug for project ServerUDP ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ServerUDP.o" "..\\src\\ServerUDP.c" 
+gcc -o ServerUDP.exe "src\\ServerUDP.o" -lwsock32 
+
+15:04:47 Build Finished. 0 errors, 0 warnings. (took 1s.363ms)
+
